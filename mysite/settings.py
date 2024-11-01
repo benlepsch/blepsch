@@ -27,6 +27,7 @@ SECRET_KEY = secrets.KEY
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://*.bleps.ch']
 
 
 # Application definition
